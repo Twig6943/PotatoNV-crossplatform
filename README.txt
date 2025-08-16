@@ -1,3 +1,21 @@
+# Usage
+
+1. Clone the repository with its submodules and cd into it
+
+```sh
+git clone --recurse-submodules https://github.com/mashed-potatoes/PotatoNV-crossplatform.git
+cd PotatoNV-crossplatform
+```
+
+2. Create a venv, install the dependencies & run the program 
+
+```sh
+python3.13 -m venv myenv
+source myenv/bin/activate
+python3 -m pip install -r requirements.txt
+python3.13 -m usrlock
+```
+
 Usrlock - CLI utility for unlocking Huawei devices on Kirin SoCs.
 Copyright (C) 2019  Penn Mackintosh (penn5)
 Copyright (C) 2020  Andrey Smirnoff (mashed-potatoes)
