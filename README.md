@@ -16,6 +16,8 @@ python3 -m pip install -r requirements.txt
 python3.13 -m usrlock
 ```
 
+# License
+
 Usrlock - CLI utility for unlocking Huawei devices on Kirin SoCs.
 Copyright (C) 2019  Penn Mackintosh (penn5)
 Copyright (C) 2020  Andrey Smirnoff (mashed-potatoes)
