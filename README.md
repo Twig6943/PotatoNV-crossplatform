@@ -12,7 +12,7 @@ cd PotatoNV-crossplatform
 ```sh
 python3.13 -m venv myenv
 source myenv/bin/activate
-python3 -m pip install -r requirements.txt
+python3.13 -m pip install -r requirements.txt
 python3.13 -m usrlock
 ```
 
